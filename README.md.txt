@@ -41,6 +41,12 @@ Registra os equipamentos faltantes dos colaboradores.
 
 ![Fluxo do Projeto](imagens/fluxo_projeto.png)
 
+## Resultado da Auditoria
+
+Exemplo de identificação automática de EPIs obrigatórios não entregues.
+
+![Resultado da Auditoria](imagens/view_epis.png)
+
 ## Resultado
 
 A solução permite identificar automaticamente quais colaboradores não receberam todos os EPIs obrigatórios para suas funções, reduzindo o trabalho manual de auditoria e aumentando a confiabilidade do processo.
