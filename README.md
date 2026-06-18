@@ -39,7 +39,7 @@ Registra os equipamentos faltantes dos colaboradores.
 
 ## Arquitetura da Solução
 
-![Fluxo do Projeto](imagens/fluxo_projeto.png)
+![Fluxo do Projeto](imagens/fluxo_projeto_epi.png)
 
 ## Resultado da Auditoria
 
