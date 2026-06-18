@@ -37,6 +37,10 @@ Registra os equipamentos efetivamente recebidos pelos colaboradores.
 ### EPIs Faltantes
 Registra os equipamentos faltantes dos colaboradores.
 
+## Arquitetura da Solução
+
+![Fluxo do Projeto](imagens/fluxo_projeto.png)
+
 ## Resultado
 
 A solução permite identificar automaticamente quais colaboradores não receberam todos os EPIs obrigatórios para suas funções, reduzindo o trabalho manual de auditoria e aumentando a confiabilidade do processo.
