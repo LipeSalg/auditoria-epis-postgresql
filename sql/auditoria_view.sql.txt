@@ -1,0 +1,15 @@
+ SELECT f.unidade,
+    f.nome,
+    f.funcao,
+    f.setor,
+    gf.ghe,
+    ge.epi AS epi_faltante
+   FROM ( SELECT DISTINCT epi_entregue.unidade,
+            epi_entregue.nome,
+            epi_entregue.funcao,
+            epi_entregue.setor
+           FROM pgr.epi_entregue) f
+     JOIN pgr.ghe_funcao gf ON f.unidade
+     JOIN pgr.ghe_epi ge ON gf.unidade
+     LEFT JOIN pgr.epi_auditoria_ultima ea ON f.unidade
+  WHERE ea.epi_padronizado IS NULL;

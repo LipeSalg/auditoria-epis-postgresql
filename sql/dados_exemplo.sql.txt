@@ -1,0 +1,87 @@
+INSERT INTO ghe_funcao (unidade, ghe, setor, funcao) VALUES
+
+-- GHE 1
+(42,'1','ADMINISTRACAO','JOVEM APRENDIZ'),
+(42,'1','ADMINISTRACAO','ATENDENTE OPERADOR DE PDV'),
+(42,'1','ADMINISTRACAO','ASSISTENTE TESOURARIA UO'),
+(42,'1','ADMINISTRACAO','ASSIST ROTINAS ADMINISTRATIVAS'),
+
+-- GHE 2
+(42,'2','ALMOXARIFADO','ASSISTENTE ALMOXARIFADO UO'),
+
+-- GHE 3
+(42,'3','COZINHA','COZINHEIRO'),
+(42,'3','COZINHA','AUXILIAR DE COZINHA'),
+(42,'3','COZINHA','AJUDANTE DE COZINHA'),
+
+-- GHE 4
+(42,'4','COZINHA','NUTRICIONISTA UNIDADE A'),
+
+-- GHE 5
+(42,'5','COZINHA','AUXILIAR DE SERVICOS GERAIS'),
+
+-- GHE 6
+(42,'6','MANUTENCAO','ELETRICISTA'),
+
+-- GHE 7
+(42,'7','COZINHA','COPEIRO');
+
+
+
+
+INSERT INTO ghe_epi (unidade, ghe, epi) VALUES
+
+-- GHE 01
+(44, 1, 'CALÇADO TIPO BOTINA'),
+
+-- GHE 02
+(44, 2, 'CALÇADO TIPO BOTINA'),
+
+-- GHE 03 
+(44, 3, 'PROTETOR AUDITIVO'),
+(44, 3, 'CALÇADO TIPO BOTINA'),
+(44, 3, 'LUVA DE LATEX'),
+(44, 3, 'LUVA DE MALHA DE AÇO'),
+
+-- GHE 04
+(44, 4, 'PROTETOR AUDITIVO'),
+(44, 4, 'CALÇADO TIPO BOTINA'),
+(44, 4, 'LUVA DE LATEX'),
+(44, 4, 'JAPONA'),
+
+-- GHE 05
+(44, 5, 'PROTETOR AUDITIVO'),
+(44, 5, 'CALÇADO TIPO BOTINA'),
+(44, 5, 'LUVA DE LATEX'),
+
+-- GHE 06
+(44, 6, 'PROTETOR AUDITIVO'),
+(44, 6, 'CALÇADO TIPO BOTINA'),
+(44, 6, 'JAPONA'),
+
+-- GHE 07
+(44, 7, 'CALÇADO TIPO BOTINA'),
+
+-- GHE 08
+(44, 8, 'CREME PROTETOR DE SEGURANÇA'),
+(44, 8, 'CALÇADO TIPO BOTINA'),
+(44, 8, 'LUVA DE LATEX'),
+(44, 8, 'RESPIRADOR PURIFICADOR DE AR TIPO PEÇA SEMIFACIAL'),
+(44, 8, 'CINTO TALABARTE');
+
+
+
+
+
+INSERT INTO epi_entregue (unidade, nome, funcao, setor, epi, data_entrega) VALUES
+
+(42, 'nome_do_funcionario', 'COZINHEIRO', 'COZINHA', 'Luva termica', '2023-02-02'),
+(42, 'nome_do_funcionario', 'COZINHEIRO', 'COZINHA', 'Sapato pvc', '2023-07-03'),
+(42, 'nome_do_funcionario', 'COZINHEIRO', 'COZINHA', 'Cinta ergonomica', '2023-06-24'),
+(42, 'nome_do_funcionario', 'COZINHEIRO', 'COZINHA', 'Sapato 38', '2023-07-20'),
+(42, 'nome_do_funcionario', 'COZINHEIRO', 'COZINHA', 'Cinta ergonomica P', '2023-10-27'),
+(42, 'nome_do_funcionario', 'COZINHEIRO', 'COZINHA', 'Luva descartavel', '2023-10-27'),
+(42, 'nome_do_funcionario', 'COZINHEIRO', 'COZINHA', 'Blusa malha', '2025-05-04'),
+(42, 'nome_do_funcionario', 'COZINHEIRO', 'COZINHA', 'Sapato 38', '2025-06-05');
+
+
