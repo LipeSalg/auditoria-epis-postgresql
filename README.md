@@ -8,7 +8,7 @@ O processo compara os EPIs entregues aos colaboradores com os EPIs obrigatórios
 
 ## Tecnologias Utilizadas
 
-- ChatGPT / IA Generativa
+- Inteligência Artificial Generativa
 - PostgreSQL
 - SQL
 
